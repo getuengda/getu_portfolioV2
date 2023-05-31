@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectLists from './ProjectLists'
-import {inventory_app, projectFive, projectSeven, multiverse_elearning, personal_portfolio, college_login} from '../../assets/index'
+import {inventory_app, projectFive, projectSeven, multiverse_elearning, personal_portfolio, college_login, fitclub_starter_app, movie_app} from '../../assets/index'
 
 
 const Projects = () => {
@@ -40,14 +40,16 @@ const Projects = () => {
                 src={college_login}
             />
             <ProjectLists 
-                title="SOCIAL MEDIA"
-                des="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                src={projectFive}
+                title="FITCLUB STARTER"
+                des="This Fitclub starter app is build on the way to learn and apply tech staks react, css, javascript to build dynamic web application. 
+                    Understand and apply styling and framer-motion and others. Update state using react hooks. Which helps me to improve knowledge and skill to build react application."
+                src={fitclub_starter_app}
             />
             <ProjectLists 
                 title="MOVIE APP"
-                des="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                src={projectSeven}
+                des="This Movie search app is build on the way to learn and apply tech staks react, css, javascript to build dynamic web application.  
+                Update state using react hooks."
+                src={movie_app}
             />
 
         </div>

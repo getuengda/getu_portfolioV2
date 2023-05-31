@@ -41,7 +41,9 @@ import inventory_app from "./images/projects/inventory_management.png";
 import multiverse_elearning from "./images/projects/multiverse_elearning.png";
 import personal_portfolio from "./images/projects/personal_portfolio.png";
 import college_result_login from "./images/projects/college_result_login.png";
-import college_login from "./images/projects/college_login.png"
+import college_login from "./images/projects/college_login.png";
+import fitclub_starter_app from "./images/projects/fitclub_starter_app.png";
+import movie_app from "./images/projects/movie_app.png"
 
 export {
     full_stack_certificate,
@@ -54,6 +56,8 @@ export {
     personal_portfolio,
     college_result_login,
     college_login,
+    fitclub_starter_app,
+    movie_app,
     icons8_ok,
     logo1,
     logo2,
