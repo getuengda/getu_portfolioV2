@@ -51,14 +51,14 @@ const Experiences = () => {
             <ResumeLists 
                 title="Software Engineer"
                 subtitle="McKinsey & Company ( March 2022 - to Present)"
-                des="•	Participate in designing, development, and implementation of highly scalable, high-volume software systems and components, 
+                des="Participate in designing, development, and implementation of highly scalable, high-volume software systems and components, 
                     both in frontend and backend development of client-facing web applications."
             />
             <ResumeLists 
                 title="Advisor/Geospatial Analyst"
                 subtitle="INSA (Aug 2009 - Feb 2020)"
-                des="•	Collaborated with team members to build knowledge and skill on relational database, spatial analysis, 
-                    mapping as well as adapted and implemented an international standard and procedure. ."
+                des="Collaborated with team members to build knowledge and skill on relational database, spatial analysis, 
+                    mapping as well as adapted and implemented an international standard and procedure."
             />
             <ResumeLists 
                 title="Researcher"
