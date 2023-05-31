@@ -1,8 +1,8 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import Card from './Card'
-import { SiAntdesign, SiProgress } from 'react-icons/si'
-import { FaMobile, FaBars } from 'react-icons/fa'
+import { SiProgress } from 'react-icons/si'
+import { FaBars } from 'react-icons/fa'
 import { AiFillAppstore } from 'react-icons/ai'
 
 const Features = () => {
@@ -14,34 +14,20 @@ const Features = () => {
       <Title title="Features" des="What I Do"/>  
       <div className="grid grid-cols-3 gap-10">
         <Card 
-          title="Web Developemnet"
-          des="Developing mobile and desktop web applications using Javascript, HTML and CSS"
+          title="Front End Developemnet"
+          des="Developing mobile and desktop web applications using Javascript, Typescript, HTML, Tailwind and CSS"
           icons={<AiFillAppstore />}
         />
         <Card 
           title="Back End Development"
-          des="Developing back end website applications; creating servers & databases for functionality"
-          // icons={<FaBars />}
+          des="Developing RESTFull API, Migration, creating servers & databases for functionality using Java spring boot, Nodejs, Express, Sequlize"
+          icons={<FaBars />}
           />
         <Card 
           title="Full Stack Software Engineer"
           des="Coding within multiple technology stacks, Front-end: browser and device using HTML, 
           CSS, and JavaScript, and Back-end: server, application and database using Java & Spring Boot."
           icons={<SiProgress />}
-        />
-        <Card 
-          title="Mobile Developemnet"
-          des="Developing mobile and desktop web applications using Javascript, HTML and CSS"
-          icons={<FaMobile />}
-        />
-        <Card 
-          title="UX Design"
-          des="Developing mobile and desktop web applications using Javascript, HTML and CSS"
-          icons={<SiAntdesign />}
-        />
-        <Card 
-          title="SEO Optimization"
-          des="Developing mobile and desktop web applications using Javascript, HTML and CSS"
         />
       </div>
     </section>

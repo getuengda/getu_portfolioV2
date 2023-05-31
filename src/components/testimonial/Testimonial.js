@@ -168,10 +168,10 @@ const [dotActive, setDotActive] = useState(0);
                             <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
                                 <div>
                                     <h3 className="text-2xl font-medium tracking-wide">
-                                    Full-stack application developer
+                                    Full-stack Software Engineer
                                     </h3>
                                     <p className="text-base text-gray-400 mt-3">
-                                        Via Upwork - Apr 6, 2017 - Mar 27, 2021
+                                     Via Upwork - March 11, 2022 - to Present
                                     </p>
                                 </div>
                                 <div className="text-yellow-500 flex gap-1">
@@ -183,10 +183,10 @@ const [dotActive, setDotActive] = useState(0);
                                 </div>
                             </div>
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                Getu worked under my direct supervision in a development team as a full stack engineer, contributing to a very large and complex product codebase. 
-                                During his time with us, he demonstrated solid software engineering fundamentals, used of modern development tools and patterns, 
-                                and worked both independently and in pair programming formats. I found Getu to be inquisitive, thoughtful, and willing to try, fail, 
-                                and learn along the way.I wish Getu the best as he continues his SWE journey and continues to grow and develop his expertise.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                         </div>
                     </div>
@@ -233,10 +233,10 @@ const [dotActive, setDotActive] = useState(0);
                                 </div>
                             </div>
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                Getu took fullstack Engineer Professional upgrading courses under my direct my cotaching and supervision in a development team as a full stack engineer, 
-                                participating in multiple project developemt independently and in collaboration with team. During this training period, he demonstrated solid software engineering fundamentals, used of modern development tools and patterns, 
-                                and worked both independently and in pair programming formats. I found Getu to be inquisitive, thoughtful, and willing to try, fail, 
-                                and learn along the way.I wish Getu the best as he continues his SWE journey and continues to grow and develop his expertise.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                         </div>
                     </div>
@@ -283,10 +283,10 @@ const [dotActive, setDotActive] = useState(0);
                                 </div>
                             </div>
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                Getu worked under my direct supervision as a coach in a development team as a full stack engineer, contributing to a very large and complex product codebase. 
-                                During his time with us, he demonstrated solid software engineering fundamentals, used of modern development tools and patterns, 
-                                and worked both independently and in pair programming formats. I found Getu to be inquisitive, thoughtful, and willing to try, fail, 
-                                and learn along the way.I wish Getu the best as he continues his SWE journey and continues to grow and develop his expertise.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                         </div>
                     </div>
@@ -333,10 +333,10 @@ const [dotActive, setDotActive] = useState(0);
                                 </div>
                             </div>
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                Getu worked under my direct supervision as a coach in a development team as a full stack engineer, contributing to a very large and complex product codebase. 
-                                During his time with us, he demonstrated solid software engineering fundamentals, used of modern development tools and patterns, 
-                                and worked both independently and in pair programming formats. I found Getu to be inquisitive, thoughtful, and willing to try, fail, 
-                                and learn along the way.I wish Getu the best as he continues his SWE journey and continues to grow and develop his expertise.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                         </div>
                     </div>
