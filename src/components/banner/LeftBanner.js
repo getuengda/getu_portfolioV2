@@ -73,6 +73,17 @@ const LeftBanner = () => {
                 </div>
             </div>
         </div>
+        <div>
+                <h2 className="text-base uppercase font-titleFont mb-4">
+                My Resume
+                </h2>
+                <div className='flex gap-4'>
+                    <span className='bannerIcon'>
+                        <FaReact/>
+                        {<a href="https://github.com/getuengda/getu_portfolioV2" target='_blank' rel="noreferrer"><FaGithub/></a>}
+                    </span>
+                </div>
+            </div>
    </div>
   )
 }

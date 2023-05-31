@@ -20,7 +20,7 @@ const Features = () => {
         />
         <Card 
           title="Back End Development"
-          des="Developing RESTFull API, Migration, creating servers & databases for functionality using Java spring boot, Nodejs, Express, Sequlize"
+          des="Developing RESTful API, Migration, creating servers & databases for functionality using Java spring boot, Nodejs, Express, Sequlize"
           icons={<FaBars />}
           />
         <Card 
