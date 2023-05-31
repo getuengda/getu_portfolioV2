@@ -1,9 +1,8 @@
 import React from 'react'
 import { FaGithub, FaGlobe } from 'react-icons/fa'
-import { BsGithub } from 'react-icons/bs'
 
 
-const ProjectLists = ({title, des, src}) => {
+const ProjectLists = ({title, des, src, github}) => {
   return (
     <div className="w-full px-12 h-auto py-10 rounded-lg shadow-shadowOne flex flex-col 
         bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b 
@@ -19,9 +18,10 @@ const ProjectLists = ({title, des, src}) => {
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex 
                         justify-center items-center text-gray-400 hover:text-designColor 
                         duration-cursor-pointer"
-                        >
-                        
-                 <a href="https://github.com/getuengda" target='_blank' rel="noreferrer"><FaGithub/></a></span>
+                        >  
+                        {github}     
+                        {/* <a href="https://github.com/getuengda/fitness-starter-react-app" target='_blank' rel="noreferrer"><FaGithub/></a> */}
+                    </span>
                    
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex 
                         justify-center items-center text-gray-400 hover:text-designColor 

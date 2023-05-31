@@ -10,7 +10,6 @@ const Card = ({title, des, icons}) => {
             <div className="flex h-full flex-col gap-8 translate-y-14 group-hover:translate-y-0 
                     transition-transform duration-500">
                 <div className='w-10 h-8 flex flex-col justify-between'>
-                    {/* <span className="text-5xl text-designColor">{icons}</span> */}
                     {icons ? (<span className="text-5xl text-designColor">{icons}</span>
                     ) : (
                         <>
