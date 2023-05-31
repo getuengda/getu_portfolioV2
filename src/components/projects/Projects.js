@@ -28,7 +28,7 @@ const Projects = () => {
             />
             <ProjectLists 
                 title="PERSONAL PORTFOLIO"
-                des="This project is a personal website prepared as show case of my technical skill and presnet whi I'm as full-stack developer.
+                des="This project is a personal website prepared as show case of my technical skill and presnet who I'm as full-stack developer.
                     It was developed using: reactjs, javascript, tailwind"
                 src={personal_portfolio}
             />
