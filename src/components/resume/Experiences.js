@@ -11,8 +11,8 @@ const Experiences = () => {
         >
         <div className='w-1/2'>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-            <p className="text-sm text-designColor tracking-[4px] uppercase">2001 - Present</p>
-            <h2 className="text-4xl font-bold">Job Experiences</h2>
+            <p className="text-sm text-designColor tracking-[4px] uppercase">2004 - Present</p>
+            <h2 className="text-4xl font-bold">Training Experiences</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black boarder-opacity-30 flex flex-col gap-10">
             <ResumeLists 
@@ -44,8 +44,8 @@ const Experiences = () => {
 
         <div className='w-1/2'>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-            <p className="text-sm text-designColor tracking-[4px] uppercase">2009 - Present</p>
-            <h2 className="text-4xl font-bold">Training Experiences</h2>
+            <p className="text-sm text-designColor tracking-[4px] uppercase">2004 - Present</p>
+            <h2 className="text-4xl font-bold">Job Experiences</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black boarder-opacity-30 flex flex-col gap-10">
             <ResumeLists 
@@ -67,7 +67,7 @@ const Experiences = () => {
             />
             <ResumeLists 
                 title="Researcher"
-                subtitle="EIAR (1995 - 2009)"
+                subtitle="EIAR (2004 - 2009)"
                 des="Agricultural researcher, specifical involved in climate and Agicultural Risk Analysis Projects."
             />
         </div>
