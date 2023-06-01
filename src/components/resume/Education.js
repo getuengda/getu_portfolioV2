@@ -51,7 +51,7 @@ const Education = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black boarder-opacity-30 flex flex-col gap-10">
             <ResumeLists 
                 title="Software Engineer"
-                subtitle="McKinsey & Company (2022 - 2023)"
+                subtitle="McKinsey & Company (2022 - Present)"
                 des="Participate in designing, development, and implementation of highly scalable, high-volume software systems and components, 
                     both in frontend and backend development of client-facing web applications."
             />
