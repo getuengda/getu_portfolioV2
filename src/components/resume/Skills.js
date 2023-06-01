@@ -24,7 +24,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-[85%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">75%</span>
                 </motion.span>
@@ -37,7 +37,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">80%</span>
                 </motion.span>
@@ -50,7 +50,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">80%</span>
                 </motion.span>
@@ -63,7 +63,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">80%</span>
                 </motion.span>
@@ -89,7 +89,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">90%</span>
                 </motion.span>
@@ -102,7 +102,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">95%</span>
                 </motion.span>
@@ -141,7 +141,7 @@ const Skills = () => {
                     initial={{ x: "-100%", opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
+                    className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500
                     rounded-md relative">
                     <span  className="absolute -top-7 right-0">75%</span>
                 </motion.span>
