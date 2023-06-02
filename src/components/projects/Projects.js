@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import ProjectLists from './ProjectLists'
 import { FaGithub } from 'react-icons/fa'
-import {inventory_app, multiverse_elearning, personal_portfolio, college_login, fitclub_starter_app, movie_app} from '../../assets/index'
+import {inventory_app, multiverse_elearning, personal_portfolio_up, college_login, fitclub_starter_app, movie_app} from '../../assets/index'
 
 
 const Projects = () => {
@@ -33,7 +33,7 @@ const Projects = () => {
                 title="PERSONAL PORTFOLIO"
                 des="This project is a personal website prepared as show case of my technical skill and presnet who I'm as full-stack developer.
                     It was developed using: reactjs, javascript, tailwind"
-                src={personal_portfolio}
+                src={personal_portfolio_up}
                 github={<a href="https://github.com/getuengda/getu_portfolioV2" target='_blank' rel="noreferrer"><FaGithub/></a>}
             />
             <ProjectLists 

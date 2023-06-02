@@ -40,6 +40,7 @@ import aws_cloud_practitioner_cert from "./images/certificate/aws_cloud_practiti
 import inventory_app from "./images/projects/inventory_management.png";
 import multiverse_elearning from "./images/projects/multiverse_elearning.png";
 import personal_portfolio from "./images/projects/personal_portfolio.png";
+import personal_portfolio_up from "./images/projects/Personal_portfolio2.png";
 import college_result_login from "./images/projects/college_result_login.png";
 import college_login from "./images/projects/college_login.png";
 import fitclub_starter_app from "./images/projects/fitclub_starter_app.png";
@@ -56,6 +57,7 @@ export {
     inventory_app,
     multiverse_elearning,
     personal_portfolio,
+    personal_portfolio_up,
     college_result_login,
     college_login,
     fitclub_starter_app,

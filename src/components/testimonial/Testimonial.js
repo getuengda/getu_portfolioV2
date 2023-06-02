@@ -233,10 +233,8 @@ const [dotActive, setDotActive] = useState(0);
                                 </div>
                             </div>
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Getu has consistently demonstrated a depth of technical knowledge and a level of professional commitment that is truly remarkable. 
+                                He has shown exceptional skills in the latest front-end technologies, such as React, Angular, and Vue.js, as well as a firm grasp of foundational languages like JavaScript, HTML, and CSS.
                                 </p>
                         </div>
                     </div>
