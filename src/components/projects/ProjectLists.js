@@ -13,7 +13,7 @@ const ProjectLists = ({title, des, src, github}) => {
         </div>
         <div className="w-full mt-5 flex flex-col gap-6">
             <div className="flex items-center justify-between"> 
-                <h3 className="text-base uppercase text-yellow-400 font-normal">{title}</h3>
+                <h3 className="text-base uppercase text-gray-400 font-bold">{title}</h3>
                 <div className="flex gap-2">
                     <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex 
                         justify-center items-center text-gray-400 hover:text-designColor 
