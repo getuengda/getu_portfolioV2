@@ -13,14 +13,14 @@ const ResumeLists = ({title, subtitle, des}) => {
       <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 
           rounded-lg px-10 flex flex-col justify-center gap-1 shadow-shadowOne">
       
-        <h3 className="text-2xl font-semibold group-hover:text-white duration-300">
+        <h3 className="text-3xl font-semibold group-hover:text-white duration-300">
           {title}
         </h3>
-        <p className="text-sm mt-1 text-gray-400 group-hover:text-white duration-300">
+        <p className="text-base mt-1 text-gray-400 group-hover:text-white duration-300">
           {subtitle}
         </p>
         
-        <p className="text-base mt-5 font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+        <p className="text-xl mt-5 font-medium text-gray-400 group-hover:text-gray-300 duration-300">
         {des}
       </p>
       </div>

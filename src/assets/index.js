@@ -44,7 +44,8 @@ import college_result_login from "./images/projects/college_result_login.png";
 import college_login from "./images/projects/college_login.png";
 import fitclub_starter_app from "./images/projects/fitclub_starter_app.png";
 import movie_app from "./images/projects/movie_app.png";
-import getu_bg from "./images/contact/getubgphoto.png"
+import getu_bg from "./images/contact/getubgphoto.png";
+import getu_bg2 from "./images/contact/getubgphoto2.png";
 
 export {
     full_stack_certificate,
@@ -60,6 +61,7 @@ export {
     fitclub_starter_app,
     movie_app,
     getu_bg,
+    getu_bg2,
     icons8_ok,
     logo1,
     logo2,
