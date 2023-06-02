@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaGithub, FaTwitter, FaLinkedinIn} from 'react-icons/fa'
-import Title from '../layouts/Title'
 import { contactImg } from '../../assets'
 
 const ContactLeft = () => {

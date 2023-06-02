@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaTwitter, FalLinkedinIn, FaReact, FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import { siTailwindcss, SiJavascript, SiSpringboot, SiTailwindcss } from "react-icons/si"
+import { FaTwitter, FaReact, FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import { SiJavascript, SiSpringboot, SiTailwindcss } from "react-icons/si"
 
 const LeftBanner = () => {
     

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaGlobe } from 'react-icons/fa'
+import { FaGlobe } from 'react-icons/fa'
 
 
 const ProjectLists = ({title, des, src, github}) => {

@@ -3,7 +3,7 @@ import Title from '../layouts/Title'
 import Slider from "react-slick";
 import { RiStarFill } from 'react-icons/ri'
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi"
-import { testimonial_nick, w_qoute, testimonial_sara, testimonial_kruti, testimonial_tejashwini, testimonial_linda } from '../../assets';
+import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda } from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;

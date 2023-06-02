@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectLists from './ProjectLists'
-import { FaGithub, FaGlobe } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import {inventory_app, multiverse_elearning, personal_portfolio, college_login, fitclub_starter_app, movie_app} from '../../assets/index'
 
 

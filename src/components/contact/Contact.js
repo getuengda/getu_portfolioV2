@@ -17,25 +17,26 @@ const Contact = () => {
     const emailValidation = () => {
         return String(email)
         .toLocaleLowerCase()
-        .match(/^w+ ([.]?\w+)*@\w+ ([.-]?\w+)* (\.\w {2,3})+$/)
+        .match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/);
     }
 
     const handleSend = (e) => {
         e.preventDefault();
         if(userName === ""){
             setErrMsg("Username is required")
-        }else if(phoneNumber === "") {
+        }else if(phoneNumber === ""){
             setErrMsg("Phone number is required")
-        }else if(email === "") {
+        }else if(email === ""){
             setErrMsg("Email is required")
-        }else if(!emailValidation (email)) {
+        }else if(!emailValidation(email)){
             setErrMsg("Give a valid Email")
-        }else if(subject === "") {
+        }else if(subject === ""){
             setErrMsg("Please give your subject!")
-        }else if(message === "") {
+        }else if(message === ""){
             setErrMsg("Message is required")
         }else{
-            setSuccessMsg("Your Message sent Successfully!");
+            setSuccessMsg(`Thank you ${userName} Your Message sent Successfully!`
+            );
             setErrMsg("");
             setUserName("");
             setPhoneNumber("");
@@ -72,6 +73,14 @@ const Contact = () => {
                                 {errMsg}
                                 </p>   
                             )}
+                            {
+                                successMsg && (
+                                    <p className='py-3 bg-gradi-to-r from-[#1e2024] to-[#23272b] 
+                                    shadow-shadowOne test-center text-green-500 text-base tracking-wide animate-bounce'>
+                                        {successMsg}
+                                    </p>
+                                )
+                            }
                         <div className="w-full flex gap-10">
                             <div className="w-1/2 flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide">Your name</p>
