@@ -78,7 +78,7 @@ const LeftBanner = () => {
                 My Resume
                 </h2>
                 <div className='flex gap-4'>
-                    <button class="bg-black hover:bg-black text-white font-bold py-2 px-4 rounded-full">
+                    <button class="bannerIconDownload">
                     {<a href="https://drive.google.com/file/d/1yn487f_-Qfub5tStUUwyIzKtz5sd2lE1/view?usp=sharing" target='_blank' rel="noreferrer">Download Resume</a>}
                     </button>
                 </div>
