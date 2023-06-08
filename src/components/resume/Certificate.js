@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Title from '../layouts/Title';
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
-import { full_stack_certificate, web_devloper_certificate, aws_cloud_practitioner_cert, arcgis_online_certificate } from '../../assets';
+import { full_stack_certificate, web_devloper_certificate, aws_cloud_practitioner_cert, arcgis_online_certificate, w3s_js_certificate } from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -124,6 +124,15 @@ const Certificate = () => {
                          <img 
                             src={aws_cloud_practitioner_cert} 
                             alt='ArcGIS online certificate'
+                            />
+                </div>
+            </div>
+            <div className="w-full h-full">
+                <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                         flex-col opacity-75">
+                         <img 
+                            src={w3s_js_certificate} 
+                            alt='Javascript W3S certificate'
                             />
                 </div>
             </div>

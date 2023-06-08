@@ -37,6 +37,7 @@ import web_devloper_certificate from "./images/certificate/web-developer-certifi
 import w3s_javascript_certificate from './images/certificate/w3s-javascript.jpg';
 import arcgis_online_certificate from "./images/certificate/arc-gis-online.jpg";
 import aws_cloud_practitioner_cert from "./images/certificate/aws_cloud_practitioner.png";
+import w3s_js_certificate from "./images/certificate/w3s-javascript-2.png";
 import inventory_app from "./images/projects/inventory_management.png";
 import multiverse_elearning from "./images/projects/multiverse_elearning.png";
 import personal_portfolio from "./images/projects/personal_portfolio.png";
@@ -52,6 +53,7 @@ export {
     full_stack_certificate,
     web_devloper_certificate,
     w3s_javascript_certificate,
+    w3s_js_certificate,
     arcgis_online_certificate,
     aws_cloud_practitioner_cert,
     inventory_app,
