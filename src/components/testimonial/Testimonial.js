@@ -3,7 +3,7 @@ import Title from '../layouts/Title'
 import Slider from "react-slick";
 import { RiStarFill } from 'react-icons/ri'
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi"
-import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda } from '../../assets';
+import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda, testimonial_bart } from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -118,10 +118,10 @@ const [dotActive, setDotActive] = useState(0);
                             <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
                                 <div>
                                     <h3 className="text-2xl font-medium tracking-wide">
-                                        Full-stack application developer
+                                        Full-stack Software Engineer
                                     </h3>
                                     <p className="text-base text-gray-400 mt-3">
-                                        Via Upwork - March 11, 2022 - to Present
+                                        Via Upwork - March 2022 - June 2023
                                     </p>
                                 </div>
                                 <div className="text-yellow-500 flex gap-1">
@@ -171,7 +171,7 @@ const [dotActive, setDotActive] = useState(0);
                                     Full-stack Software Engineer
                                     </h3>
                                     <p className="text-base text-gray-400 mt-3">
-                                     Via Upwork - March 11, 2022 - to Present
+                                     Via Upwork - March 2022 - June 2023
                                     </p>
                                 </div>
                                 <div className="text-yellow-500 flex gap-1">
@@ -221,7 +221,7 @@ const [dotActive, setDotActive] = useState(0);
                                     Full-stack Software Engineer apprentices
                                     </h3>
                                     <p className="text-base text-gray-400 mt-3">
-                                        Via Upwork - May, 2022 - to Present
+                                        Via an apprenticeship - May 2022 - July 2023
                                     </p>
                                 </div>
                                 <div className="text-yellow-500 flex gap-1">
@@ -235,6 +235,54 @@ const [dotActive, setDotActive] = useState(0);
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                                 Getu has consistently demonstrated a depth of technical knowledge and a level of professional commitment that is truly remarkable. 
                                 He has shown exceptional skills in the latest front-end technologies, such as React, Angular, and Vue.js, as well as a firm grasp of foundational languages like JavaScript, HTML, and CSS.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="w-full">
+                <div className="w-full h-[500px] flex justify-between">
+                    <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                        flex flex-col gap-8 justify-center opacity-75">
+                         <img 
+                            className="h-54 rounded-lg object-cover" 
+                            src={testimonial_bart} 
+                            alt='testimonial_sara'
+                            />
+                        <div>
+                            <p className="text-xs uppercase text-designColor tracking-wide mb-2" >McKinsey & Company</p>
+                            <h3 className="text-2xl font-bold">Bart Budak</h3>
+                            <p className="text-base tracking-wide">Engineering lead, design systems, accessibility</p>
+                        </div>
+                    </div>
+                    <div className="w-[60%] h-full flex flex-col justify-between">
+                        <img 
+                            className="w-{20%] h-20 w-20 mt-5 ml-5" 
+                            src={w_qoute} 
+                            alt='w_qoute'
+                        />
+                        <div className='w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg 
+                            shadow-shadowOne p-8 flex flex-col justify-center gap-8'>
+                            <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                                <div>
+                                    <h3 className="text-2xl font-medium tracking-wide">
+                                    Full-stack Software Engineer
+                                    </h3>
+                                    <p className="text-base text-gray-400 mt-3">
+                                        Via Upwork - March 2022 - June 2023
+                                    </p>
+                                </div>
+                                <div className="text-yellow-500 flex gap-1">
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                </div>
+                            </div>
+                                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                                I had the pleasure of working with Getu during his time as an apprentice with McKinsey & Company. Getu provides an invaluable perspective into his work which he derives from his previous experiences. If you're seeking a colleague with a thirst for learning and growth, look no further.
+                                Getu has shown applicable understanding of full stack development, using technologies like HTML, CSS, and React. I'm impressed with the progress he's made since becoming an apprentice and I'm excited to see where he goes from here.
                                 </p>
                         </div>
                     </div>

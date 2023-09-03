@@ -18,6 +18,7 @@ import publicationOtherL1 from "./images/projects/publication_o1.jpg";
 import publicationOtherL2 from "./images/projects/publication_aw1.jpg";
 import testimonial_nick from "./images/testmonial/Nick.p.jpg";
 import testimonial_sara from "./images/testmonial/Sara.m.jpg";
+import testimonial_bart from "./images/testmonial/Bart.jpg";
 import testimonial_yared from "./images/testmonial/Yared.b.jpg";
 import testimonial_kruti from "./images/testmonial/Kruti.r.jpg";
 import testimonial_tejashwini from "./images/testmonial/Tejashwini.busnur.jpg";
@@ -48,6 +49,7 @@ import fitclub_starter_app from "./images/projects/fitclub_starter_app.png";
 import movie_app from "./images/projects/movie_app.png";
 import getu_bg from "./images/contact/getubgphoto.png";
 import getu_bg2 from "./images/contact/getubgphoto2.png";
+
 
 export {
     full_stack_certificate,
@@ -88,6 +90,7 @@ export {
     testimonial_nick,
     testimonial_sara,
     testimonial_linda,
+    testimonial_bart,
     testimonial_kruti,
     testimonial_tejashwini,
     testimonial_yared,
