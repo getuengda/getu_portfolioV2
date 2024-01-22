@@ -34,6 +34,8 @@ import w_qoute from "./images/qoute/w_qoute2.png";
 import contactImg from "./images/qoute/contact_us_1.jpg";
 import contactImg2 from "./images/qoute/contact_us_2.jpg";
 import contactImg3 from "./images/qoute/contact_us_3.jpg";
+import coreValueAward_perscholas from "./images/certificate/coreValueAward.png";
+import full_stack_perscholas from "./images/certificate/full-stack-Perscholas.png";
 import full_stack_certificate from "./images/certificate/full-stack-certificate.jpg";
 import web_devloper_certificate from "./images/certificate/web-developer-certificate.jpg";
 import w3s_javascript_certificate from './images/certificate/w3s-javascript.jpg';
@@ -54,6 +56,8 @@ import getu_bg2 from "./images/contact/getubgphoto2.png";
 
 
 export {
+    coreValueAward_perscholas,
+    full_stack_perscholas,
     full_stack_certificate,
     web_devloper_certificate,
     w3s_javascript_certificate,
