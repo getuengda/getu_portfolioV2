@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import ProjectLists from './ProjectLists'
 import { FaGithub } from 'react-icons/fa'
-import {inventory_app, multiverse_elearning, personal_portfolio_up, college_login, fitclub_starter_app, movie_app} from '../../assets/index'
+import {inventory_app, multiverse_elearning, personal_portfolio_up, college_login, fitclub_starter_app, movie_app, staffHub} from '../../assets/index'
 
 
 const Projects = () => {
@@ -15,6 +15,13 @@ const Projects = () => {
         />
         </div>
         <div className="grid grid-cols-3 gap-14">
+            <ProjectLists 
+                title="StaffHub"
+                des="Empowered by Java, Spring Boot, and a blend of leading technologies,
+                StaffHub showcases my proficiency in full-stack development, including back-end and front-end development skills"
+                src={staffHub}
+                github={<a href="https://github.com/getuengda/StaffHub" target='_blank' rel="noreferrer"><FaGithub/></a>}
+            />
             <ProjectLists 
                 title="INVENTORY MANAGEMENT"
                 des="This inventory managment application was created during the Multiverse apprenticeship programm in collaboration with team. 

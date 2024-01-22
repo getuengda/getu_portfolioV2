@@ -3,7 +3,7 @@ import Title from '../layouts/Title'
 import Slider from "react-slick";
 import { RiStarFill } from 'react-icons/ri'
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi"
-import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda, testimonial_bart } from '../../assets';
+import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda, testimonial_bart, testimonial_stephani, testimonial_Krista, testimonial_temp } from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -199,7 +199,7 @@ const [dotActive, setDotActive] = useState(0);
                          <img 
                             className="h-54 rounded-lg object-cover" 
                             src={testimonial_linda} 
-                            alt='testimonial_sara'
+                            alt='testimonial_linda'
                             />
                         <div>
                             <p className="text-xs uppercase text-designColor tracking-wide mb-2" >Multiverse</p>
@@ -247,7 +247,7 @@ const [dotActive, setDotActive] = useState(0);
                          <img 
                             className="h-54 rounded-lg object-cover" 
                             src={testimonial_bart} 
-                            alt='testimonial_sara'
+                            alt='testimonial_bart'
                             />
                         <div>
                             <p className="text-xs uppercase text-designColor tracking-wide mb-2" >McKinsey & Company</p>
@@ -283,6 +283,156 @@ const [dotActive, setDotActive] = useState(0);
                                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                                 I had the pleasure of working with Getu during his time as an apprentice with McKinsey & Company. Getu provides an invaluable perspective into his work which he derives from his previous experiences. If you're seeking a colleague with a thirst for learning and growth, look no further.
                                 Getu has shown applicable understanding of full stack development, using technologies like HTML, CSS, and React. I'm impressed with the progress he's made since becoming an apprentice and I'm excited to see where he goes from here.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w-full">
+                <div className="w-full h-[500px] flex justify-between">
+                    <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                        flex flex-col gap-8 justify-center opacity-75">
+                         <img 
+                            className="h-54 rounded-lg object-cover" 
+                            src={testimonial_stephani} 
+                            alt='testimonial_stephani'
+                            />
+                        <div>
+                            <p className="text-xs uppercase text-designColor tracking-wide mb-2" >McKinsey & Company</p>
+                            <h3 className="text-2xl font-bold">Stephanie Chacon</h3>
+                            <p className="text-base tracking-wide">Cell Operations Specialist</p>
+                        </div>
+                    </div>
+                    <div className="w-[60%] h-full flex flex-col justify-between">
+                        <img 
+                            className="w-{20%] h-20 w-20 mt-5 ml-5" 
+                            src={w_qoute} 
+                            alt='w_qoute'
+                        />
+                        <div className='w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg 
+                            shadow-shadowOne p-8 flex flex-col justify-center gap-8'>
+                            <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                                <div>
+                                    <h3 className="text-2xl font-medium tracking-wide">
+                                    Full-stack Software Engineer
+                                    </h3>
+                                    <p className="text-base text-gray-400 mt-3">
+                                        Via Upwork - March 2022 - June 2023
+                                    </p>
+                                </div>
+                                <div className="text-yellow-500 flex gap-1">
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                </div>
+                            </div>
+                                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                                Getu was one of our participants in our software engineering apprenticeship program for 14 months. He has shown initiative, curiosity and willingness to push him self to consistency grow and develop new skills.
+                                He is also a really great team mate and collaborator. Can't wait to see what is next for him!
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w-full">
+                <div className="w-full h-[500px] flex justify-between">
+                    <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                        flex flex-col gap-8 justify-center opacity-75">
+                         <img 
+                            className="h-54 rounded-lg object-cover" 
+                            src={testimonial_temp} 
+                            alt='testimonial_eric'
+                            />
+                        <div>
+                            <p className="text-xs uppercase text-designColor tracking-wide mb-2" >Per Scholas</p>
+                            <h3 className="text-2xl font-bold">Eric Heilig</h3>
+                            <p className="text-base tracking-wide">Teaching full stack Java | Spring Boot | Database | HTML | JavaScript to adult learners</p>
+                        </div>
+                    </div>
+                    <div className="w-[60%] h-full flex flex-col justify-between">
+                        <img 
+                            className="w-{20%] h-20 w-20 mt-5 ml-5" 
+                            src={w_qoute} 
+                            alt='w_qoute'
+                        />
+                        <div className='w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg 
+                            shadow-shadowOne p-8 flex flex-col justify-center gap-8'>
+                            <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                                <div>
+                                    <h3 className="text-2xl font-medium tracking-wide">
+                                    Per Scholas Full Stack Java Course, powered by TEKsystems
+                                    </h3>
+                                    <p className="text-base text-gray-400 mt-3">
+                                        Via Full Stack Java Course - September 2023 - January 2024
+                                    </p>
+                                </div>
+                                <div className="text-yellow-500 flex gap-1">
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                </div>
+                            </div>
+                                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                                Getu showed a tremendous amount of progress and learning in the Java Boot Camp. I was very impressed with his work ethic and hunger to learn. 
+                                Even after he finished his final project with a 100%, and could have stopped working, he continued to work on it and make it better.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="w-full">
+                <div className="w-full h-[500px] flex justify-between">
+                    <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                        flex flex-col gap-8 justify-center opacity-75">
+                         <img 
+                            className="h-54 rounded-lg object-cover" 
+                            src={testimonial_Krista} 
+                            alt='testimonial_Krista'
+                            />
+                        <div>
+                            <p className="text-xs uppercase text-designColor tracking-wide mb-2" >Per Scholas</p>
+                            <h3 className="text-2xl font-bold">Krista Roedl</h3>
+                            <p className="text-base tracking-wide">Professional Development Manager at Per Scholas | Advisor of Professional Skills | Coach | Skills Discoverer | Storyteller of Profesional Development</p>
+                        </div>
+                    </div>
+                    <div className="w-[60%] h-full flex flex-col justify-between">
+                        <img 
+                            className="w-{20%] h-20 w-20 mt-5 ml-5" 
+                            src={w_qoute} 
+                            alt='w_qoute'
+                        />
+                        <div className='w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg 
+                            shadow-shadowOne p-8 flex flex-col justify-center gap-8'>
+                            <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                                <div>
+                                    <h3 className="text-2xl font-medium tracking-wide">
+                                    Per Scholas Full Stack Java Course, powered by TEKsystems
+                                    </h3>
+                                    <p className="text-base text-gray-400 mt-3">
+                                        Via Full Stack Java Course - September 2023 - January 2024
+                                    </p>
+                                </div>
+                                <div className="text-yellow-500 flex gap-1">
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                    <RiStarFill/>
+                                </div>
+                            </div>
+                                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                                In working with Getu over a 10-week professional development course, I and his instructors recognized him for exhibiting six core values within his cohort. 
+                                These included ambition, integrity, professionalism, resourcefulness, perseverance, and commitment to service. During his time in professional development, he asked pertinent questions that allowed others to learn but also gained insight for himself. 
+                                He asked for time to understand his professional brand and what he had in his repertoire to market himself to a future opportunity. His communication was always professional and considerate of other's time and attention. 
+                                With his commitment to the highest quality of work and his collaborative personality, he would do well within any organization.
                                 </p>
                         </div>
                     </div>

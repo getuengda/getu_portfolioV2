@@ -24,8 +24,9 @@ import testimonial_kruti from "./images/testmonial/Kruti.r.jpg";
 import testimonial_tejashwini from "./images/testmonial/Tejashwini.busnur.jpg";
 import testimonial_stephani from "./images/testmonial/Stephani.chacon.jpg";
 import testimonial_linda from "./images/testmonial/Linda.eng.jpg";
-import testimonial_abraham from "./images/testmonial/Abraham.r.jpg";
-import testimonial_nebyou from "./images/testmonial/Nebyou.c.jpg";
+import testimonial_eric from "./images/testmonial/Eric.h.jpg";
+import testimonial_temp from "./images/testmonial/image_temp.jpg";
+import testimonial_Krista from "./images/testmonial/Krista.r.jpg";
 import left_qoute from "./images/qoute/left-quotes-sign.png";
 import right_qoute from "./images/qoute/right-quote-sign.png";
 import icons8_ok from "./images/qoute/icons8-ok.gif";
@@ -43,6 +44,7 @@ import inventory_app from "./images/projects/inventory_management.png";
 import multiverse_elearning from "./images/projects/multiverse_elearning.png";
 import personal_portfolio from "./images/projects/personal_portfolio.png";
 import personal_portfolio_up from "./images/projects/Personal_portfolio2.png";
+import staffHub from "./images/projects/staffHub_home.png";
 import college_result_login from "./images/projects/college_result_login.png";
 import college_login from "./images/projects/college_login.png";
 import fitclub_starter_app from "./images/projects/fitclub_starter_app.png";
@@ -82,6 +84,7 @@ export {
     projectFour,
     projectFive,
     projectSix,
+    staffHub,
     projectSeven,
     projectEight,
     publicationEng,
@@ -95,8 +98,9 @@ export {
     testimonial_tejashwini,
     testimonial_yared,
     testimonial_stephani,
-    testimonial_abraham,
-    testimonial_nebyou,
+    testimonial_eric,
+    testimonial_temp,
+    testimonial_Krista,
     left_qoute,
     right_qoute,
     w_qoute,
