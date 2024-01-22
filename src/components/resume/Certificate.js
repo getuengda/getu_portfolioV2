@@ -3,7 +3,7 @@ import Title from '../layouts/Title';
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { full_stack_certificate, web_devloper_certificate, aws_cloud_practitioner_cert, arcgis_online_certificate, w3s_js_certificate, coreValueAward_perscholas,
-  full_stack_perscholas} from '../../assets';
+  full_stack_perscholas, US_department_of_labor_certificate, ms_diploma, esol_certificate} from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -92,6 +92,16 @@ const Certificate = () => {
 
         <div className="max-w-6xl mx-auto">
             <Slider {...settings}>
+
+            <div className="w-full h-full">
+            <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                         flex-col opacity-75">
+                         <img 
+                            src={ms_diploma} 
+                            alt='Masters Sciences Degree Diploma'
+                            />
+            </div>
+            </div>
             <div className="w-full h-full">
             <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
                          flex-col opacity-75">
@@ -99,9 +109,8 @@ const Certificate = () => {
                             src={coreValueAward_perscholas} 
                             alt='full-stack Java Course Core Value Award'
                             />
-                </div>
             </div>
-
+            </div>
             <div className="w-full h-full">
             <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
                          flex-col opacity-75">
@@ -111,8 +120,15 @@ const Certificate = () => {
                             />
                 </div>
             </div>
-
-
+            <div className="w-full h-full">
+            <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                         flex-col opacity-75">
+                         <img 
+                            src={US_department_of_labor_certificate} 
+                            alt='US_department_of_labor_certificate for the full-stack Java developer certificate'
+                            />
+                </div>
+            </div>
             <div className="w-full h-full">
             <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
                          flex-col opacity-75">
@@ -155,6 +171,16 @@ const Certificate = () => {
                          <img 
                             src={w3s_js_certificate} 
                             alt='Javascript W3S certificate'
+                            />
+                </div>
+            </div>
+
+            <div className="w-full h-full">
+                <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                         flex-col opacity-75">
+                         <img 
+                            src={esol_certificate} 
+                            alt='English for Speaker of Other Language (ESOL)'
                             />
                 </div>
             </div>

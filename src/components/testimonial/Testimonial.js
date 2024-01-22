@@ -3,7 +3,7 @@ import Title from '../layouts/Title'
 import Slider from "react-slick";
 import { RiStarFill } from 'react-icons/ri'
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi"
-import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda, testimonial_bart, testimonial_stephani, testimonial_Krista, testimonial_temp } from '../../assets';
+import { testimonial_nick, w_qoute, testimonial_sara, testimonial_linda, testimonial_bart, testimonial_stephani, testimonial_Krista, testimonial_eric_h2 } from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -344,13 +344,13 @@ const [dotActive, setDotActive] = useState(0);
                         flex flex-col gap-8 justify-center opacity-75">
                          <img 
                             className="h-54 rounded-lg object-cover" 
-                            src={testimonial_temp} 
+                            src={testimonial_eric_h2} 
                             alt='testimonial_eric'
                             />
                         <div>
-                            <p className="text-xs uppercase text-designColor tracking-wide mb-2" >Per Scholas</p>
-                            <h3 className="text-2xl font-bold">Eric Heilig</h3>
-                            <p className="text-base tracking-wide">Teaching full stack Java | Spring Boot | Database | HTML | JavaScript to adult learners</p>
+                            <p className="text-xs uppercase text-designColor tracking-wide mb-2" >Per Scholas</p> 
+                            <h3 className="text-2xl font-bold">Eric Heilig</h3> <span className="text-sm text-designColor"><a href="https://seriesreminder.com/" target='_blank' rel="noreferrer">Link to Series Reminder</a></span>
+                            <p className="text-md tracking-wide">Teaching full stack Java | Spring Boot | Database | HTML | JavaScript to adult learners</p>
                         </div>
                     </div>
                     <div className="w-[60%] h-full flex flex-col justify-between">
@@ -400,7 +400,7 @@ const [dotActive, setDotActive] = useState(0);
                         <div>
                             <p className="text-xs uppercase text-designColor tracking-wide mb-2" >Per Scholas</p>
                             <h3 className="text-2xl font-bold">Krista Roedl</h3>
-                            <p className="text-base tracking-wide">Professional Development Manager at Per Scholas | Advisor of Professional Skills | Coach | Skills Discoverer | Storyteller of Profesional Development</p>
+                            <p className="text-sm tracking-wide">Professional Development Manager at Per Scholas | Advisor of Professional Skills | Coach | Skills Discoverer | Storyteller of Profesional Development</p>
                         </div>
                     </div>
                     <div className="w-[60%] h-full flex flex-col justify-between">
@@ -428,7 +428,7 @@ const [dotActive, setDotActive] = useState(0);
                                     <RiStarFill/>
                                 </div>
                             </div>
-                                <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                                <p className="text-sm font-titleFont text-gray-400 font-small tracking-wide leading-4">
                                 In working with Getu over a 10-week professional development course, I and his instructors recognized him for exhibiting six core values within his cohort. 
                                 These included ambition, integrity, professionalism, resourcefulness, perseverance, and commitment to service. During his time in professional development, he asked pertinent questions that allowed others to learn but also gained insight for himself. 
                                 He asked for time to understand his professional brand and what he had in his repertoire to market himself to a future opportunity. His communication was always professional and considerate of other's time and attention. 

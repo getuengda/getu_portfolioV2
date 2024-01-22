@@ -25,6 +25,7 @@ import testimonial_tejashwini from "./images/testmonial/Tejashwini.busnur.jpg";
 import testimonial_stephani from "./images/testmonial/Stephani.chacon.jpg";
 import testimonial_linda from "./images/testmonial/Linda.eng.jpg";
 import testimonial_eric from "./images/testmonial/Eric.h.jpg";
+import testimonial_eric_h2 from "./images/testmonial/Eric.h2.jpg"
 import testimonial_temp from "./images/testmonial/image_temp.jpg";
 import testimonial_Krista from "./images/testmonial/Krista.r.jpg";
 import left_qoute from "./images/qoute/left-quotes-sign.png";
@@ -34,10 +35,13 @@ import w_qoute from "./images/qoute/w_qoute2.png";
 import contactImg from "./images/qoute/contact_us_1.jpg";
 import contactImg2 from "./images/qoute/contact_us_2.jpg";
 import contactImg3 from "./images/qoute/contact_us_3.jpg";
+import ms_diploma from "./images/certificate/ms_diploma.png";
 import coreValueAward_perscholas from "./images/certificate/coreValueAward.png";
 import full_stack_perscholas from "./images/certificate/full-stack-Perscholas.png";
+import US_department_of_labor_certificate from "./images/certificate/US_department_of_labor_certificate.png";
 import full_stack_certificate from "./images/certificate/full-stack-certificate.jpg";
 import web_devloper_certificate from "./images/certificate/web-developer-certificate.jpg";
+import esol_certificate from "./images/certificate/esol_certificate.png";
 import w3s_javascript_certificate from './images/certificate/w3s-javascript.jpg';
 import arcgis_online_certificate from "./images/certificate/arc-gis-online.jpg";
 import aws_cloud_practitioner_cert from "./images/certificate/aws_cloud_practitioner.png";
@@ -58,6 +62,9 @@ import getu_bg2 from "./images/contact/getubgphoto2.png";
 export {
     coreValueAward_perscholas,
     full_stack_perscholas,
+    ms_diploma,
+    US_department_of_labor_certificate,
+    esol_certificate,
     full_stack_certificate,
     web_devloper_certificate,
     w3s_javascript_certificate,
@@ -103,6 +110,7 @@ export {
     testimonial_yared,
     testimonial_stephani,
     testimonial_eric,
+    testimonial_eric_h2,
     testimonial_temp,
     testimonial_Krista,
     left_qoute,
