@@ -28,11 +28,7 @@ const LeftBanner = () => {
         />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-            Proactive and multidisciplinary Software Engineer with experience in web development and research. 
-            With 1+ years of experience as a Java and React developer, and +10 years as a Information Technology expert 
-            and researcher in Geo-information analysis. Passionate about learning new technologies and staying
-            up-to-date with industry trends. Seeking a Software developer position to contribute to company's goals and push
-            the boundaries of technology. Thrives on new challenges and dedicated to delivering value-added products on time.
+        Proactive and versatile Software Engineer with a robust background in web development and research. Bringing over 2 years of hands-on experience as a skilled Java, JavaScript, HTML, CSS, and React developer, complemented by a decade-long expertise as an Information Technology professional and Geo-information analysis researcher. Committed to staying abreast of emerging technologies and industry trends. Actively seeking a position as a Full Stack Java Developer, Software Developer, Backend Developer, or Frontend Developer to contribute to company objectives and drive technological innovation. Thrives on embracing new challenges and is dedicated to delivering high-quality, value-added products within specified timelines.
         </p>
     </div>
     <div className="flex justify-between">
@@ -78,7 +74,7 @@ const LeftBanner = () => {
                 </h2>
                 <div className='flex gap-4'>
                     <button class="bannerIconDownload">
-                    {<a href="https://drive.google.com/file/d/1yn487f_-Qfub5tStUUwyIzKtz5sd2lE1/view?usp=sharing" target='_blank' rel="noreferrer">Download Resume</a>}
+                    {<a href="https://drive.google.com/file/d/1Nik4jKcM-dxOa26PoX1NxkTcU9oCjMO0/view?usp=sharing" target='_blank' rel="noreferrer">Download Resume</a>}
                     </button>
                 </div>
             </div>
