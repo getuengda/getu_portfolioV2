@@ -154,7 +154,7 @@ const [dotActive, setDotActive] = useState(0);
                         <div>
                             <p className="text-xs uppercase text-designColor tracking-wide mb-2" >McKinsey & Company</p>
                             <h3 className="text-2xl font-bold">Sara Morsi</h3>
-                            <p className="text-base tracking-wide">Poduct Manager</p>
+                            <p className="text-base tracking-wide">Software Architect, Tech Lead</p>
                         </div>
                     </div>
                     <div className="w-[60%] h-full flex flex-col justify-between">
