@@ -57,11 +57,13 @@ import fitclub_starter_app from "./images/projects/fitclub_starter_app.png";
 import movie_app from "./images/projects/movie_app.png";
 import getu_bg from "./images/contact/getubgphoto.png";
 import getu_bg2 from "./images/contact/getubgphoto2.png";
+import full_stack_multiverse from "./images/certificate/multiverse.png";
 
 
 export {
     coreValueAward_perscholas,
     full_stack_perscholas,
+    full_stack_multiverse,
     ms_diploma,
     US_department_of_labor_certificate,
     esol_certificate,

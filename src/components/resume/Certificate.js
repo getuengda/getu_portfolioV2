@@ -3,7 +3,7 @@ import Title from '../layouts/Title';
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { full_stack_certificate, web_devloper_certificate, aws_cloud_practitioner_cert, arcgis_online_certificate, w3s_js_certificate, coreValueAward_perscholas,
-  full_stack_perscholas, US_department_of_labor_certificate, ms_diploma, esol_certificate} from '../../assets';
+  full_stack_perscholas, US_department_of_labor_certificate, ms_diploma, esol_certificate, full_stack_multiverse} from '../../assets';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -125,7 +125,16 @@ const Certificate = () => {
                          flex-col opacity-75">
                          <img 
                             src={US_department_of_labor_certificate} 
-                            alt='US_department_of_labor_certificate for the full-stack Java developer certificate'
+                            alt='The United States Department of Labor Apprenticeship Office, Apprenticeship Completion Certificate'
+                            />
+                </div>
+            </div>
+            <div className="w-full h-full">
+            <div className="w-full h-[95%] flex justify-between bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne 
+                         flex-col opacity-75">
+                         <img 
+                            src={full_stack_multiverse} 
+                            alt='full-stack Java developer certificate, Multiverse'
                             />
                 </div>
             </div>
