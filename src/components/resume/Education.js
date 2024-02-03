@@ -16,7 +16,7 @@ const Education = () => {
             </div>
             <div className="mt-14 w-full h-[1200px] border-l-[6px] border-l-black boarder-opacity-30 flex flex-col gap-10">
                 <ResumeLists 
-                    title="Full Stack Java Developer"
+                    title="Java Full Stack Developer"
                     subtitle="Per Scholas (2023 - 2024)"
                     des="Successfully completed an intensive, instructor-led Full Stack Java training program at Per Scholas, 
                     encompassing over 600 hours of remote learning. Acquired expertise in building comprehensive web applications with both front-end and back-end components. 
@@ -25,7 +25,7 @@ const Education = () => {
                     while also handling front-end tasks. Demonstrated effective project management by meeting deadlines, delivering on project requirements, and producing high-quality, scalable software solutions."
                 />
                 <ResumeLists 
-                    title="Full Stack Software Engineer"
+                    title="Applied Full Stack Software Engineer"
                     subtitle="Multiverse (2022 - 2023)"
                     des="Completed a rigorous training program on full-stack web development, with expertise in Test Driven Development, 
                         CSS, HTML, Bootstrap, Express, Node, React, Redux, JavaScript, Postman API, Docker, MySQL, PostgreSQL and REST APIs.
@@ -33,14 +33,14 @@ const Education = () => {
                         managing deadlines and deliverables, and delivering high-quality, scalable software solutions."
                 />
                 <ResumeLists 
-                    title="Java Full Stack Java Developerr"
-                    subtitle="Atlanta Technical College (03/2022)"
+                    title="Java Full Stack Developer"
+                    subtitle="Generation USA with Atlanta Technical College (03/2022)"
                     des="Participating in a Full Stack Java Developer program through Generation USA spending 560 hours learning technologies 
                         to deploy full stack web applications using Git, Javascript, Java, HTML5, CSS3, SQL, and Bootstrap. Participating in a Full Stack Java Developer program through Generation USA spending over 460+ hours learning technologies to deploy full stack web applications using Git, Javascript, Java, HTML5, CSS3, SQL, and Bootstrap."
                 />
                 <ResumeLists 
                     title="Web Developer"
-                    subtitle="Delgado Community College (09/2021)"
+                    subtitle="Generation USA with Delgado Community College (09/2021)"
                     des="Participating in a Web Developer program through Generation USA spending over 400+ hours learning technologies 
                     to deploy web applications using Git, Javascript, HTML5, CSS3 and Bootstrap."
                 />
