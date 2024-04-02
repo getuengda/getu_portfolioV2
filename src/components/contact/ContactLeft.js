@@ -21,11 +21,11 @@ const ContactLeft = () => {
           I have energy, commitment and integrity. I do have wonderful team work sprite and motivation. 
           </p>
           <p className="text-base text-gray-400 flex items-cnetr gap-2" >
-              Phone: <span className="text-lightText">+571 594 0583</span>
+              Phone: <span className="text-lightText">404-954-1676</span>
           </p>
           <p className="text-base text-gray-400 flex items-cnetr gap-2" >
               Email:{" "}
-              <span className="text-lightText">getuengda@gmail.com</span>
+              <span className="text-lightText">getutaddesse.23@gmail.com</span>
           </p>
       </div>
       <div className="flex flex-col gap-4">
